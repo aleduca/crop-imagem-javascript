@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&family=Titillium+Web:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#box {
+  background-color: #efefef;
+  border: solid 1px #3e3e3e;
+  padding: 10px;
+}
+
+#box-crop {
+  display: flex;
+}
+
+#preview-crop {
+  display: none;
+  background-color: #efefef;
+  border: solid 2px red;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  overflow: hidden;
+}
